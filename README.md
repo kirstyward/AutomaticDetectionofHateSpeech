@@ -2,6 +2,8 @@
 
 Authors: Amy Hemmeter and Kirsty Ward
 
+This github repository is a side project I worked on with my friend Amy Hemmeter while completing my Masters of Analyics at North Carolina State University's Institute for Advanced Analytics. The project was a fun way to dive into neural networks and open source coding in more depth than was provided in class. 
+
 Summary: this is a project on automated detection of hate speech on Twitter using data collected by Zeerak Waseem. These Jupyter Notebooks were designed as tutorials for how to clean social media data, create various Pandas dataframes, run a Term-Frequency Inverse Document Frequency (TFIDF) analysis, perform Sentiment Analysis, use regular expressions to pull out other text variables, and finally run these variables through a neural network using keras. To follow all of the steps, start with Jupyter Notebook 1. Data Cleaning. Each of the subsequent steps in the analysis are also numbered. We include all of the csv files in case you want to start in the middle.
 
 The second "fourth" notebook is a Naive Bayes classifier - written with no packages, from scratch. This has minimal preprocessing of the data, includes just a bag of words approach because it is much quicker than a neural network. This model has 87% accuracy. 
